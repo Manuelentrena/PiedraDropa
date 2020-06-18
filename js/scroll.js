@@ -8,7 +8,3 @@ window.onscroll = function () {
     element.classList.remove("header-content-scroll");
   }
 };
-
-
-
-
