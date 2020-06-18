@@ -9,6 +9,4 @@ window.onscroll = function () {
   }
 };
 
-
-
-
+document.getElementById("teaser").play();
