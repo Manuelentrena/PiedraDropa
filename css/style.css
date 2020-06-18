@@ -1205,6 +1205,7 @@ html {
   display: flex;
   max-width: 1600px;
   height: auto;
+  width: 100%;
   overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
@@ -1223,8 +1224,6 @@ html {
 
 .slider-img {
   width: 100%;
-  min-width: 100%;
-  /* TODO: Esta propiedad es necesario solo el firefox, desconozco el motivo */
   height: auto;
   scroll-snap-align: center;
   -o-object-fit: cover;
@@ -1236,6 +1235,10 @@ html {
     scrollbar-color: #168039 #f7f7f7;
     scrollbar-width: thin;
     overflow-x: scroll;
+  }
+  .slider-img {
+    min-width: 100%;
+    /* TODO: Esta propiedad es necesario solo el firefox, desconozco el motivo */
   }
 }
 /*# sourceMappingURL=style.css.map */
