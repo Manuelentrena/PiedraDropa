@@ -740,6 +740,7 @@ html {
   position: relative;
   background-image: url(../resources/imgs/footer.png);
   background-position: center;
+  background-size: cover;
   height: 300px;
   width: 100%;
   display: -webkit-box;
@@ -758,7 +759,7 @@ html {
 }
 
 .footer::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
